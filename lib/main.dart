@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Login(),
-      initialRoute: 'home',
+      initialRoute: 'login',
       routes: {
         'login': (context) => const Login(),
         'register': (context) => const Register(),
